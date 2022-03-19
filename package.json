@@ -1,0 +1,24 @@
+{
+  "name": "vanilla-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -l 5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chun-gu/vanilla-spa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chun-gu/vanilla-spa/issues"
+  },
+  "homepage": "https://github.com/Chun-gu/vanilla-spa#readme",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
