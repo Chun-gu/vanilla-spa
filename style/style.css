@@ -1,0 +1,16 @@
+@import url("./reset.css");
+
+/* error page */
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-page-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
