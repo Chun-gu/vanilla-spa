@@ -1,5 +1,33 @@
 @import url("./reset.css");
 
+.product {
+  width: 380px;
+  height: 462px;
+}
+
+.product-img-wrapper {
+  width: 380px;
+  height: 380px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.product-price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
 /* error page */
 .error-page {
   display: flex;
