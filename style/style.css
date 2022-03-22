@@ -1,31 +1,74 @@
 @import url("./reset.css");
 
-.product {
-  width: 380px;
-  height: 462px;
+.sr-only {
 }
 
-.product-img-wrapper {
+header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.product {
   width: 380px;
-  height: 380px;
-  border-radius: 10px;
-  object-fit: cover;
 }
 
 .product-img {
+  width: 380px;
+  height: 380px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.product-img img {
   width: 100%;
 }
 
+.product-info {
+  position: relative;
+}
+
 .product-name {
+  width: 340px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.current-price {
   font-size: 24px;
   font-weight: 700;
-  line-height: 30px;
+  color: #000000;
+}
+.original-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;
+  text-decoration: line-through;
+}
+.discount-rate {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6327fe;
+}
+
+.like-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.like-button object {
+  cursor: pointer;
 }
 
 /* error page */
