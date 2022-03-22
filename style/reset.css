@@ -83,7 +83,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -133,7 +134,11 @@ a {
   color: inherit;
 }
 button {
+  background: none;
   cursor: pointer;
+}
+img {
+  vertical-align: top;
 }
 * {
   box-sizing: border-box;
